@@ -3,7 +3,7 @@
 
 This release hardens the Arduino firmware while keeping **full compatibility** with your existing Python uploader (e.g., `EPROM_EMU_NG_2.0rc10.py`) and command set.
 
-## What’s in 2.0rc13
+## What’s in 2.0rc13 - All Adjustments created by GPT5 at the request of KD5VMF.
 
 - **Robust serial framing** for `:SBN` and `:DIR` (consume CR/LF explicitly).
 - **Gentle receive timeout** in `:DIR` to avoid indefinite hangs if the host dies mid-transfer.
